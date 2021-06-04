@@ -127,6 +127,7 @@ public class TestcaseRunner {
 		runTestCase("RepeatedTableTransformSample");
 
 		/* Add additional test cases here. */
+		runTestCase("flexbox-example");
 	}
 
 	/**

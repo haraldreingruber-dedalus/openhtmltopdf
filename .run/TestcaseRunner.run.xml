@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestcaseRunner - FlexboxExample" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.openhtmltopdf.testcases.TestcaseRunner" />
+    <module name="openhtmltopdf-examples" />
+    <option name="VM_PARAMETERS" value="-DONLY_TEST=flexbox-example" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.openhtmltopdf.testcases.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

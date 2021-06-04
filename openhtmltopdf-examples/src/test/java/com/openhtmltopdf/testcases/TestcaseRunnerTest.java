@@ -231,4 +231,14 @@ public class TestcaseRunnerTest {
         runTestCase(test);
         confirmPages(test, 3);
     }
+
+    @Test
+    public void testFlexBoxExample() throws IOException {
+        /*
+         * Flexbox layout doesn't seem to be supported
+         */
+        String test = "flexbox-example";
+        runTestCase(test);
+        confirmPages(test, 1);
+    }
 }
